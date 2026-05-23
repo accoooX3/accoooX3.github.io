@@ -237,6 +237,61 @@ body {
     display: inline-block;
 }
 
+/* Progetti */
+.project-img {
+    width: 100%;
+    max-height: 280px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 1.5rem;
+    border: 1px solid rgba(0,0,0,0.08);
+}
+
+/* Curriculum Table */
+.curriculum-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.9rem;
+    margin-bottom: 1.5rem;
+}
+
+.curriculum-table th {
+    background-color: var(--dark-blue);
+    color: var(--text-light);
+    padding: 0.6rem 0.8rem;
+    text-align: center;
+    font-weight: 500;
+}
+
+.curriculum-table th:first-child {
+    text-align: left;
+}
+
+.curriculum-table td {
+    padding: 0.5rem 0.8rem;
+    border-bottom: 1px solid rgba(0,0,0,0.06);
+    color: var(--text-medium);
+    text-align: center;
+}
+
+.curriculum-table td:first-child {
+    text-align: left;
+    color: var(--text-dark);
+}
+
+.curriculum-table tbody tr:hover {
+    background-color: var(--light-blue);
+}
+
+.curriculum-table .table-total {
+    background-color: var(--light-blue);
+    border-top: 2px solid var(--primary-blue);
+}
+
+.curriculum-table .table-total td {
+    color: var(--dark-blue);
+}
+
 @media (max-width: 768px) {
     .content-section {
         padding: 4rem 0 2rem;
@@ -257,5 +312,13 @@ body {
     .subject-nav {
         position: static;
         margin-bottom: 2rem;
+    }
+
+    .curriculum-table {
+        font-size: 0.78rem;
+    }
+    .curriculum-table th,
+    .curriculum-table td {
+        padding: 0.4rem 0.4rem;
     }
 }
