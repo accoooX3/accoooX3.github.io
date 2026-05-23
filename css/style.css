@@ -237,17 +237,13 @@ body {
     display: inline-block;
 }
 
-/* Progetti */
 .project-img {
     width: 100%;
-    max-height: 280px;
-    object-fit: cover;
     border-radius: 8px;
     margin-bottom: 1.5rem;
     border: 1px solid rgba(0,0,0,0.08);
 }
 
-/* Curriculum Table */
 .curriculum-table {
     width: 100%;
     border-collapse: collapse;
